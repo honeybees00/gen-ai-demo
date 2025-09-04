@@ -1,0 +1,4 @@
+Update your code to extract the model’s response in the then callback:
+
+console.log(response);
+console.log(response.choices[0].message.content);
